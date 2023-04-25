@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.cdnfonts.com/css/the-burcey");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* body {
+  padding: 0px 80px 0px 80px;
+  box-sizing: border-box;
+} */
 
 /* font-family: 'Poppins', sans-serif; */
 /* font-family: 'Playfair Display', serif; */
@@ -18,7 +24,7 @@
   box-shadow: 0 8px 6px -6px gray;
   --webkit-box-shadow: 0 8px 6px -6px gray;
   border-bottom: solid gray !important;
-  padding: 10px 50px;
+  padding: 10px 100px;
 }
 
 .logo{
@@ -36,7 +42,7 @@
 
 .navbar-brand {
   font-weight: 700;
-  font-family: "roboto", sans-serif;
+  font-family: "the burcey","roboto", sans-serif;
   letter-spacing: 3px;
 }
 
@@ -52,6 +58,19 @@
   background-color: #000000;
   border-radius: 0;
   color: white;
+}
+
+/* banner */
+header {
+  /* height: 600px; */
+  /* width: 100vw; */
+  /* background: rgb(192, 178, 178); */
+  overflow: hidden;
+}
+
+.banner-img {
+ /* opacity: 0.9; */
+ object-fit: cover;
 }
 
 /* =============================

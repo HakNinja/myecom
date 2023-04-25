@@ -10,10 +10,12 @@
 .home-page {
   display: flex;
   flex-wrap: wrap;
+  padding: 10px 100px;
 }
+
 .home-page .card {
   background-color: rgba(128, 128, 128, 0.097);
-  width: 18rem;
+  width: 17rem;
 }
 .home-page .card-name-price {
   display: flex;
@@ -48,6 +50,11 @@
 /* ==================
 filters
 ============== */
+
+.filters{
+  border-right: solid grey 1px;
+}
+
 .filters h4 {
   margin-top: 100px;
   color: gray !important;

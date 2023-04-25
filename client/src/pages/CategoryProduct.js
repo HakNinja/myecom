@@ -45,7 +45,7 @@ const CategoryProduct = () => {
                       <h5 className="card-title card-price">
                         {p.price.toLocaleString("en-US", {
                           style: "currency",
-                          currency: "USD",
+                          currency: "INR",
                         })}
                       </h5>
                     </div>
@@ -55,7 +55,7 @@ const CategoryProduct = () => {
                     <div className="card-name-price">
                       <button
                         className="btn btn-info ms-1"
-                        onClick={() => navigate(`/product/${p.slug}`)}
+                        onClick={() => navigate(`/product/{p.slug}`)}
                       >
                         More Details
                       </button>
