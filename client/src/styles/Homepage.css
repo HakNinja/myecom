@@ -3,14 +3,15 @@
 }
 
 .home-page h1 {
-  color: gray;
+  color: #353535;
   font-family: "Playfair Display", serif;
 }
 
 .home-page {
   display: flex;
   flex-wrap: wrap;
-  padding: 10px 100px;
+  margin: 10px 100px;
+  /* background-color: rgb(185, 67, 67); */
 }
 
 .home-page .card {
@@ -41,7 +42,7 @@
 }
 
 .home-page .card img:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 .home-page .card-img-top {
@@ -57,8 +58,8 @@ filters
 
 .filters h4 {
   margin-top: 100px;
-  color: gray !important;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  color: #353535 !important;
+  border-bottom: 1px solid #353535;
 }
 
 .ant-checkbox-wrapper:first-of-type {
